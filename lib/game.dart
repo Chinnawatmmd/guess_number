@@ -19,7 +19,7 @@ class Game{
       return 0;
     }
     else{
-      print('➜ $num is correct ❤ , total guess: $count');
+      print('➜ $num is correct ❤ , total guesses: $count');
       return 1;
     }
   }

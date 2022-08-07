@@ -7,17 +7,19 @@ void main(){
   /*while(true){
     play();
     print('Do you want to play agian(y/n)?');
-    String? playAgain = stdin.readLineSync();
     bool wantToplay = true;
     while(true) {
+      String? playAgain = stdin.readLineSync();
       if (playAgain == 'y' || playAgain == 'Y')
-        continue;
+        break;
       else if (playAgain == 'n' || playAgain == 'N'){
         wantToplay = false;
         break;
       }
-      else
+      else {
         print('Please type y or n only.');
+        continue;
+      }
     }
     if(!wantToplay) break;
   }*/
